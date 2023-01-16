@@ -3,18 +3,18 @@
 ## Overview:
 ***
 
-- The goal of this project was to use various tool sets to make a recoendation of what tool should be used to predict credit risk on behalf of the firm. 
+- The goal of this project was to use various tool sets to make a recommendation of what tool should be used to predict credit risk on behalf of the firm. 
 
   - First we used Resampling Models such as  imbalanced-learn and scikit-learn to predict credit risk. 
   
   - Second we used SMOTEEN algorithm to predict credit risk. 
   
-  - Lastly, we used Ensemble Classifers to predcit credit risk. 
+  - Lastly, we used Ensemble Classifiers to predict credit risk. 
 
 ***
 ## Results:
 ***
-Further examples can be found in code present in this database. To exempify the results I will display accuracy and f1 score below as I think they can offer the mose in terms of deciding which tool should be used in the firm: 
+Further examples can be found in code present in this database. To exemplify the results I will display accuracy and f1 score below as I think they can offer the most in terms of deciding which tool should be used in the firm: 
 
 Accuracy: 
 
@@ -71,8 +71,8 @@ Precision/Recall/F1 Score:
 
 
 ***
-## Summary:
+## Summary/Recommendation:
 ***
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+    - Overall there were some interesting findings from running these six tools. From a credit risk standpoint, it is more important, in my opinion, to use the tool that has the highest precision of control for both high and low risk customers. Although accepting a high risk customer accidentally could lead to losses, if you firm denied every applicant on the basis that they were high risk due to the algorithm, but in fact they were low risk, this would also severely hurt your business. 
+    - My recommendation would be an ensemble classifier as they performed the best from both an accuracy standpoint and a precision standpoint as evidenced by the tables above. More specifically I would recommend Easy Ensemble as it far and away had the best scores and was the most accurate, only mis-classifying 8 high risk clients as low risk and having the highest f1 scores. 
